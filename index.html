@@ -4,29 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Munkh-Orgil | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- ===== NAVBAR ===== -->
     <header class="header">
-        <nav class="navbar">
-            <div class="logo">MyPortfolio</div>
+        <nav class="navbar container">
+            <div class="logo">Munkh-Orgil</div>
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="https://drive.google.com/file/d/1_zYNHrZ-oU8c1KwRkgqngaYEL6BZrwa1/view?usp=sharing">CV</a></li>
                 <li><a href="portfolio.html">Work</a></li>
                 <li><a href="Training.html">Training</a></li>
             </ul>
+            <a class="btn btn-outline" href="#contact">Get in touch</a>
         </nav>
     </header>
 
+    <main class="container">
     <!-- ===== HERO SECTION ===== -->
     <section class="hero">
         <div class="hero-text">
+            <p class="eyebrow">Data Analyst • Researcher • Dashboard Developer</p>
             <h1>Hello, I'm <span>Munkh-Orgil Tserentogtokh</span></h1>
-            <p>Data Analyst • Researcher • Dashboard Developer</p>
-            <a href="portfolio.html" class="btn">View My Work</a>
+            <p>I help organizations turn complex data into clear, decision-ready insights through clean analysis, statistical modeling, and impactful dashboards.</p>
+            <div class="hero-actions">
+                <a href="portfolio.html" class="btn">View My Work</a>
+                <a href="https://drive.google.com/file/d/1_zYNHrZ-oU8c1KwRkgqngaYEL6BZrwa1/view?usp=sharing" class="btn btn-outline">Download CV</a>
+            </div>
         </div>
 
         <div class="hero-img">
@@ -38,37 +47,94 @@
     <section id="about" class="section">
         <h2>Миний тухай</h2>
         <p>
-            I am an economist and data analyst with extensive experience working with the World Bank Group (WBG) and the Asian Development Bank (ADB). 
-            I specialize in data analysis, statistical modeling, and managing large and complex datasets to support evidence-based decision-making. 
-            I am highly proficient in Python for data cleaning, analysis, and automation, and I have strong experience in developing interactive dashboards and 
-            data visualizations to communicate insights effectively to technical and non-technical stakeholders. 
+            I am an economist and data analyst with extensive experience working with the World Bank Group (WBG) and the Asian Development Bank (ADB).
+            I specialize in data analysis, statistical modeling, and managing large and complex datasets to support evidence-based decision-making.
+            I am highly proficient in Python for data cleaning, analysis, and automation, and I have strong experience in developing interactive dashboards and
+            data visualizations to communicate insights effectively to technical and non-technical stakeholders.
             My work focuses on transforming raw data into reliable, actionable outputs within international development and policy-oriented projects.
         </p>
+        <div class="highlights">
+            <div>
+                <h3>Focus Areas</h3>
+                <p>Evidence-based policy, development economics, and data-informed program evaluation.</p>
+            </div>
+            <div>
+                <h3>Tooling</h3>
+                <p>Python, Stata, Power BI, Tableau, and reproducible analytical pipelines.</p>
+            </div>
+            <div>
+                <h3>Impact</h3>
+                <p>Delivering stakeholder-ready insights for international organizations and public sector partners.</p>
+            </div>
+        </div>
     </section>
 
     <!-- ===== EXPERIENCE ===== -->
     <section id="experience" class="section">
         <h2>Ажлын туршлага</h2>
-        <ul>
-            <li><strong>Asian Development Bank (ADB) — </strong> Data Analyst (2024 — Одоог хүртэл) </li>
-            <li><strong>World Bank Group (WBG) — </strong> Data Analyst (2023 — Одоог хүртэл) </li>
-            <li><strong>National Statistics Office (NSO) — </strong> Statistician (2021 — 2023) </li>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-role">
+                    <strong>Asian Development Bank (ADB)</strong>
+                    <span>Data Analyst · 2024 — Одоог хүртэл</span>
+                </div>
+                <p>Analytics and monitoring support for development programs, focusing on evidence-based insights.</p>
+            </li>
+            <li>
+                <div class="timeline-role">
+                    <strong>World Bank Group (WBG)</strong>
+                    <span>Data Analyst · 2023 — Одоог хүртэл</span>
+                </div>
+                <p>Data modeling, reporting automation, and dashboard development for cross-sector projects.</p>
+            </li>
+            <li>
+                <div class="timeline-role">
+                    <strong>National Statistics Office (NSO)</strong>
+                    <span>Statistician · 2021 — 2023</span>
+                </div>
+                <p>Survey design, data processing, and statistical analysis for national datasets.</p>
+            </li>
         </ul>
     </section>
 
     <!-- ===== SKILLS ===== -->
     <section id="skills" class="section">
         <h2>Ур чадвар</h2>
-        <p>Python • Stata • Power BI • Tableau • Data Cleaning • Dashboard Development • Research</p>
+        <div class="skills-list">
+            <span class="skill">Python</span>
+            <span class="skill">Stata</span>
+            <span class="skill">Power BI</span>
+            <span class="skill">Tableau</span>
+            <span class="skill">Data Cleaning</span>
+            <span class="skill">Dashboard Development</span>
+            <span class="skill">Research</span>
+        </div>
     </section>
 
     <!-- ===== CONTACT ===== -->
     <section id="contact" class="section">
         <h2>Холбоо барих</h2>
-        <p>Email 1: orgil.nso@gmail.com</p>
-        <p>Email 2: mtserentogtokh@worldbank.org</p>
-        <p>Email 3: munkhorgil.ts@med.gov.mn</p>
+        <div class="contact-grid">
+            <div>
+                <p class="label">Primary</p>
+                <a href="mailto:orgil.nso@gmail.com">orgil.nso@gmail.com</a>
+            </div>
+            <div>
+                <p class="label">Work</p>
+                <a href="mailto:mtserentogtokh@worldbank.org">mtserentogtokh@worldbank.org</a>
+            </div>
+            <div>
+                <p class="label">Additional</p>
+                <a href="mailto:munkhorgil.ts@med.gov.mn">munkhorgil.ts@med.gov.mn</a>
+            </div>
+        </div>
     </section>
+    </main>
 
+    <footer class="footer">
+        <div class="container">
+            <p>Available for analytics, research, and dashboard projects.</p>
+        </div>
+    </footer>
 </body>
 </html>
