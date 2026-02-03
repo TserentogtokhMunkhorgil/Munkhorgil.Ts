@@ -3,30 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Training Materials | Munkh-Orgil</title>
+    <title>Work | Munkh-Orgil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-        <nav class="navbar">
-            <div class="logo">MyPortfolio</div>
+        <nav class="navbar container">
+            <div class="logo">Munkh-Orgil</div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Work</a></li>
-                <li><a href="Training.html" class="active">Training</a></li>
+                <li><a href="portfolio.html" class="active">Work</a></li>
+                <li><a href="Training.html">Training</a></li>
             </ul>
+            <a class="btn btn-outline" href="index.html#contact">Get in touch</a>
         </nav>
     </header>
 
-    <section class="section">
-        <h2>Following work</h2>
-        <p>Here are my working raw materials,some project participated in:</p>
-        
-        <ul>
-            <li><a href="https://tserentogtokhmunkhorgil.github.io/ub_housing_map/" target="_blank">Survey location monitoring map</a></li>
-            <li><a href="https://app.powerbi.com/view?r=eyJrIjoiYTAyM2QyOTMtODkwMS00ZWU0LTg5ZWEtZGNiN2JhNjEzMTBmIiwidCI6IjNjY2ZiY2JhLTYzMTEtNGE0MS05YmIwLTM3ZGJlYmE1ODRlOCIsImMiOjEwfQ%3D%3D" target="_blank">Monitoring Dashboard</a></li>
-            <li><a href="materials/stata_training.pdf" target="_blank">Stata Training Manual</a></li>
-        </ul>
-    </section>
+    <main class="container">
+        <section class="section page-header">
+            <h2>Selected Work</h2>
+            <p>Dashboards, monitoring tools, and analytical resources built for real-world decision making.</p>
+        </section>
+
+        <section class="section work-grid">
+            <article class="work-card">
+                <h3>Survey Location Monitoring Map</h3>
+                <p>Interactive geographic monitoring for survey teams and field operations.</p>
+                <a href="https://tserentogtokhmunkhorgil.github.io/ub_housing_map/" target="_blank">View project →</a>
+            </article>
+            <article class="work-card">
+                <h3>Monitoring Dashboard</h3>
+                <p>Power BI dashboard tracking program indicators and progress metrics.</p>
+                <a href="https://app.powerbi.com/view?r=eyJrIjoiYTAyM2QyOTMtODkwMS00ZWU0LTg5ZWEtZGNiN2JhNjEzMTBmIiwidCI6IjNjY2ZiY2JhLTYzMTEtNGE0MS05YmIwLTM3ZGJlYmE1ODRlOCIsImMiOjEwfQ%3D%3D" target="_blank">View dashboard →</a>
+            </article>
+            <article class="work-card">
+                <h3>Stata Training Manual</h3>
+                <p>Step-by-step reference for statistical analysis and reproducible workflows.</p>
+                <a href="materials/stata_training.pdf" target="_blank">Download PDF →</a>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
